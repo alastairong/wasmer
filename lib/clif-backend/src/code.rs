@@ -688,6 +688,7 @@ impl FuncEnvironment for FunctionEnvironment {
                 ),
                 offset: 0.into(),
                 colocated: false,
+                tls: false,
             });
 
             let val = pos.ins().symbol_value(ir::types::I64, sig_index_global);

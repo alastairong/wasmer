@@ -1,5 +1,4 @@
 #![deny(
-    dead_code,
     missing_docs,
     nonstandard_style,
     unused_imports,

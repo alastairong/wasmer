@@ -42,7 +42,7 @@ path = "../llvm-backend"
 optional = true
 
 [features]
-default = ["cranelift", "default-backend-cranelift"]
+default = ["singlepass", "default-backend-singlepass"]
 docs = []
 cranelift = ["wasmer-clif-backend"]
 cache = ["cranelift"]
